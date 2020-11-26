@@ -1,0 +1,5 @@
+node_modules
+actions
+
+# ignore web src if it exists
+web-src

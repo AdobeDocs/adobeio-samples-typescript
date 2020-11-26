@@ -1,0 +1,148 @@
+{
+  "project": {
+    "id": "4566206088344545521",
+    "name": "gettingstarted",
+    "title": "gettingstarted",
+    "org": {
+      "id": "53444",
+      "name": "Adobe IO DEMO",
+      "ims_org_id": "BA3E5257595416580A495C6D@AdobeOrg",
+      "details": {
+        "services": [
+          {
+            "name": "Adobe Stock",
+            "code": "StockSDK"
+          },
+          {
+            "name": "Photoshop API",
+            "code": "PhotoshopSDK"
+          },
+          {
+            "name": "Lightroom / Camera Raw API",
+            "code": "LightroomSDK"
+          },
+          {
+            "name": "Dimension Services",
+            "code": "DimensionSDK"
+          },
+          {
+            "name": "PDF Embed API",
+            "code": "ViewSDK"
+          },
+          {
+            "name": "Lightroom Services",
+            "code": "LightroomPartnersSDK"
+          },
+          {
+            "name": "Image Cutout - Creative Cloud Automation Services",
+            "code": "ImageCutoutV2SDK"
+          },
+          {
+            "name": "Content and Commerce AI",
+            "code": "ccai-sdk"
+          },
+          {
+            "name": "Creative Cloud Libraries",
+            "code": "CC-Libraries-SDK"
+          },
+          {
+            "name": "Status API",
+            "code": "StatusAPISDK"
+          },
+          {
+            "name": "Adobe Analytics",
+            "code": "AdobeAnalyticsSDK"
+          },
+          {
+            "name": "Task Queue Manager",
+            "code": "DvaQueueSDK"
+          },
+          {
+            "name": "Lightroom / Camera Raw API",
+            "code": "LightroomSDK"
+          },
+          {
+            "name": "Adobe Analytics",
+            "code": "AdobeAnalyticsSDK"
+          },
+          {
+            "name": "Smart Content",
+            "code": "MCSmartContentServicesSDK"
+          },
+          {
+            "name": "Photoshop API",
+            "code": "PhotoshopSDK"
+          },
+          {
+            "name": "Privacy Service API",
+            "code": "McGdprSDK"
+          },
+          {
+            "name": "Asset Compute",
+            "code": "AssetComputeSDK"
+          },
+          {
+            "name": "Experience Platform Launch API",
+            "code": "McDtmSDK"
+          },
+          {
+            "name": "Content AI (Beta)",
+            "code": "Sensei Enterprise Beta (MAX 2018)"
+          },
+          {
+            "name": "Cloud Manager",
+            "code": "CloudManagerSDK"
+          },
+          {
+            "name": "User Management API",
+            "code": "UserMgmtSDK"
+          },
+          {
+            "name": "I/O Events",
+            "code": "CloudIntegrationSDK"
+          },
+          {
+            "name": "Audience Manager API",
+            "code": "AudienceManagerCustomerSDK"
+          },
+          {
+            "name": "AEM Brand Portal",
+            "code": "AEMBrandPortalSDK"
+          },
+          {
+            "name": "I/O Management API",
+            "code": "AdobeIOManagementAPISDK"
+          },
+          {
+            "name": "Adobe Campaign",
+            "code": "CampaignSDK"
+          },
+          {
+            "name": "Dimension Services",
+            "code": "DimensionSDK"
+          },
+          {
+            "name": "Adobe Target",
+            "code": "AdobeTargetSDK"
+          },
+          {
+            "name": "Places",
+            "code": "McPlacesSDK"
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "4566206088344545822",
+      "name": "bengedev",
+      "title": "bengedev",
+      "description": "A place for dave to work",
+      "action_url": "https://53444-gettingstarted-bengedev.adobeioruntime.net",
+      "app_url": "https://53444-gettingstarted-bengedev.adobeio-static.net",
+      "details": {
+        "credentials": [],
+        "services": []
+      }
+    }
+  }
+}

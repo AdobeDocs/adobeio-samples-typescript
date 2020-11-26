@@ -1,0 +1,42 @@
+{
+  "name": "gettingstarted",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@adobe/aio-sdk": "^2.3.0",
+    "@adobe/exc-app": "^0.2.21",
+    "@adobe/react-spectrum": "^3.5.0",
+    "@spectrum-icons/workflow": "^3.2.0",
+    "core-js": "^3.6.4",
+    "node-fetch": "^2.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-error-boundary": "^3.0.2",
+    "react-router-dom": "^5.2.0",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "devDependencies": {
+    "@openwhisk/wskdebug": "^1.3.0",
+    "@types/mime-types": "^2.1.0",
+    "@types/node": "^14.14.10",
+    "@types/node-fetch": "^2.5.7",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "jest": "^24.9.0",
+    "shx": "^0.3.3",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "pre-app-run": "npm run clean && tsc",
+    "test": "jest --passWithNoTests ./test",
+    "e2e": "jest --collectCoverage=false --testRegex ./e2e",
+    "clean": "shx rm -rf actions && shx echo Action Cleaning Done",
+    "lint": "eslint \"actions-src/**/*.{js,ts}\" ",
+    "lint-fix": "eslint \"actions-src/**/*.{js,ts}\" --quiet --fix"
+  },
+  "engines": {
+    "node": "^10 || ^12"
+  }
+}

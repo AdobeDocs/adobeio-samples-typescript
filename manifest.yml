@@ -1,0 +1,13 @@
+packages:
+  __APP_PACKAGE__:
+    license: Apache-2.0
+    actions:
+      tsaction:
+        function: actions/tsaction/index.js
+        web: 'yes'
+        runtime: 'nodejs:12'
+        inputs:
+          LOG_LEVEL: debug
+        annotations:
+          require-adobe-auth: true
+          final: true
