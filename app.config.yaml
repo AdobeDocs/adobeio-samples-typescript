@@ -1,0 +1,20 @@
+extensions:
+  dx/excshell/1:
+    operations:
+      view:
+        - type: web
+          impl: index.html
+    runtimeManifest:
+      packages:
+        __APP_PACKAGE__:
+          license: Apache-2.0
+          actions:
+            todolist:
+              function: actions/tsaction/index.js
+              web: 'yes'
+              runtime: 'nodejs:14'
+              inputs:
+                LOG_LEVEL: debug
+              annotations:
+                require-adobe-auth: true
+                final: true
